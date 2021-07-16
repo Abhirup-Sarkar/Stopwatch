@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -14,8 +14,27 @@ body{
 
 .hero{
     text-align: center;
-    margin: 2rem;
-    font-size: 40px;
+    margin: 3rem;
+    font-size: 45px;
     font-weight: bold;
 
+}
+
+.container{
+    
+    text-align: center;
+    
+}
+.display{
+    font-size: 35px;
+    margin:1rem;
+
+}
+button{
+    height:30px;
+    width: 60px;
+    margin: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    
 }
