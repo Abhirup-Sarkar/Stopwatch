@@ -36,7 +36,7 @@ function resetButton() {
         seconds = 0;
         minutes = 0;
         hours = 0;
-        document.getElementById("display").innerHTML = "00:00:00"
+        document.getElementById("display-time").innerHTML = "00:00:00"
         status = "stopped"
     }
 }
@@ -72,5 +72,5 @@ function stopWatch() {
     else{
         displayHours = hours;
     }
-    document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
+    document.getElementById("display-time").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
 }
