@@ -49,12 +49,14 @@ function stopWatch() {
 
     seconds++;
     if (seconds / 60 === 1) {
-        minutes++;
         seconds = 0;
+        minutes++;
+        
     }
     if (minutes / 60 === 1) {
-        hours++;
+        
         minutes = 0;
+        hours++;
     }
     if (seconds < 10 || seconds === 0) {
         diplaySeconds = "0" + seconds.toString();
